@@ -1,0 +1,11 @@
+{
+  "name": "user.workflow.437902b1-5b8a-4627-a6cd-12001d4ef04b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
