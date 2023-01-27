@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>workflow.romankuepper.com</string>
 	<key>connections</key>
 	<dict>
 		<key>96EEFAFA-95AB-43C2-9C8D-9FC3DC6F9834</key>
@@ -21,7 +21,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Roman Kuepper</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -121,6 +121,6 @@
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>webaddress</key>
-	<string></string>
+	<string>romankuepper.com</string>
 </dict>
 </plist>
