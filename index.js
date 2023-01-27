@@ -56,6 +56,7 @@ const output = [
   {
     title: `Tailwind value: ${result.tailwind}`,
     subtitle: `Closest pixle value: ${result.pixel}px`,
+    arg: result.tailwind,
   },
 ];
 
