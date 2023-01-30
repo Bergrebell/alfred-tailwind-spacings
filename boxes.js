@@ -1,6 +1,7 @@
 import alfy from "alfy";
+import { findClosest } from "./utils.js";
 
-const array = [
+const boxes_array = [
   { pixel: 2, tailwind: "0.5" },
   { pixel: 4, tailwind: "1" },
   { pixel: 6, tailwind: "1.5" },
@@ -36,21 +37,10 @@ const array = [
   { pixel: 384, tailwind: "96" },
 ];
 
-function findClosest(value) {
-  // By default that will be a big number
-  var closestValue = Infinity;
-  // We will store the index of the element
-  var closestIndex = -1;
-  for (var i = 0; i < array.length; ++i) {
-    var diff = Math.abs(array[i].pixel - value);
-    if (diff < closestValue) {
-      closestValue = diff;
-      closestIndex = i;
-    }
-  }
-  return array[closestIndex];
-}
-let result = findClosest(alfy.input);
+let result = findClosest({
+  tw_conversions_array: boxes_array,
+  pixel_value: alfy.input,
+});
 
 const output = [
   {
