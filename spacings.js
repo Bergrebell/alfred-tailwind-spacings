@@ -54,7 +54,7 @@ let result = findClosest(alfy.input);
 
 const output = [
   {
-    title: `Tailwind value: ${result.tailwind}`,
+    title: `Tailwind value (spacing): ${result.tailwind}`,
     subtitle: `Closest pixle value: ${result.pixel}px`,
     arg: result.tailwind,
   },

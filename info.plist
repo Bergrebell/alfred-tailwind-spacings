@@ -6,6 +6,19 @@
 	<string>workflow.romankuepper.com</string>
 	<key>connections</key>
 	<dict>
+		<key>1A5B5116-2834-4635-922F-1E0EBE5C8075</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C8D70ED-B536-45A9-93DC-A17EAE28B4FB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>96EEFAFA-95AB-43C2-9C8D-9FC3DC6F9834</key>
 		<array>
 			<dict>
@@ -33,6 +46,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>367AE89E-1FD4-4251-BE39-F74C9D827F35</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -46,7 +78,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>tail</string>
+				<string>ts</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -58,7 +90,7 @@
 				<key>runningsubtext</key>
 				<string>...searching</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>./node_modules/.bin/run-node spacings.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -66,7 +98,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Tailwind</string>
+				<string>Tailwind Spacings</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -76,6 +108,55 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>96EEFAFA-95AB-43C2-9C8D-9FC3DC6F9834</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>tb</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>...searching</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node boxes.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Tailwind Boxes (Height &amp; Width)</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1A5B5116-2834-4635-922F-1E0EBE5C8075</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -94,7 +175,7 @@
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>367AE89E-1FD4-4251-BE39-F74C9D827F35</string>
+			<string>4C8D70ED-B536-45A9-93DC-A17EAE28B4FB</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -103,6 +184,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>1A5B5116-2834-4635-922F-1E0EBE5C8075</key>
+		<dict>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>465</real>
+		</dict>
 		<key>367AE89E-1FD4-4251-BE39-F74C9D827F35</key>
 		<dict>
 			<key>xpos</key>
@@ -110,12 +198,19 @@
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
+		<key>4C8D70ED-B536-45A9-93DC-A17EAE28B4FB</key>
+		<dict>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>465</real>
+		</dict>
 		<key>96EEFAFA-95AB-43C2-9C8D-9FC3DC6F9834</key>
 		<dict>
 			<key>xpos</key>
-			<real>100</real>
+			<real>110</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>300</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
